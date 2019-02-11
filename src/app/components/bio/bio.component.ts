@@ -21,7 +21,7 @@ export class BioComponent implements OnInit {
     this.Tanggal = Date.now();
     this.Nama = "Muhammad Iqbal Kharis Firismanda";
     this.Alamat = "Jln. Janti Barat C/B.25";
-    this.Hobbies = this.bioServ.getHobby();
+    this.Hobbies = this.bioServ.getMIqbal();
   }
 
 
