@@ -14,15 +14,16 @@ export class BioComponent implements OnInit {
   Nama: String;
   Alamat: String;
 
-  constructor(private bioServ:BioService) { }
-
-  ngOnInit() {
+  constructor(private bioServ:BioService) {
     this.Title = "INI Tugas Pertama Biodata";
     this.Tanggal = Date.now();
     this.Nama = "Muhammad Iqbal Kharis Firismanda";
     this.Alamat = "Jln. Janti Barat C/B.25";
     this.Hobbies = this.bioServ.getMIqbal();
-  }
+   }
+
+  ngOnInit() {
+    }
 
 
 
